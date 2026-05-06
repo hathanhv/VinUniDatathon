@@ -1,0 +1,24 @@
+# ── Core ──────────────────────────────────────────────────
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+scipy>=1.11.0
+
+# ── Gradient Boosting ─────────────────────────────────────
+lightgbm>=4.1.0
+xgboost>=2.0.0
+# catboost>=1.2.2      # đã thay bằng HistGradientBoosting (sklearn)
+# prophet>=1.1.5       # đã loại khỏi ensemble do hiệu suất kém
+
+# ── Hyperparameter Tuning ─────────────────────────────────
+optuna>=3.4.0
+
+# ── Visualization (stacking_ensemble + EDA) ───────────────
+matplotlib>=3.7.0
+seaborn>=0.13.0
+
+# ── Time Series Decomposition (eda_feature_selection.py) ──
+statsmodels>=0.14.0    # STL decomposition, SARIMA
+
+# ── Document Processing ───────────────────────────────────
+python-docx>=1.1.0     # đọc/chuyển đổi file .docx sang .md

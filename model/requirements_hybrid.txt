@@ -1,0 +1,19 @@
+# ── requirements_hybrid.txt ──────────────────────────────────────────────────
+# Cài đặt: pip install -r requirements_hybrid.txt
+
+# ── Core data & math ─────────────────────────────────────────────────────────
+numpy>=1.24.0
+pandas>=2.0.0
+
+# ── Machine Learning (sklearn) ────────────────────────────────────────────────
+scikit-learn>=1.3.0
+
+# ── Gradient Boosting ─────────────────────────────────────────────────────────
+lightgbm>=4.1.0
+xgboost>=2.0.0
+
+# ── Time Series / Statistical ─────────────────────────────────────────────────
+statsmodels>=0.14.0        # ExponentialSmoothing (Holt-Winters)
+
+# ── Optional: visualization ───────────────────────────────────────────────────
+matplotlib>=3.7.0
